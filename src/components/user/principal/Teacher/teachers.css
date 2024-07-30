@@ -1,0 +1,95 @@
+.main {
+  width: 79%;
+  float: right;
+  background-color: #5d6c79; /* Aqua color */
+  padding: 20px;
+}
+
+.teacher-form {
+  margin: 0 auto;
+  width: 80%;
+  /* max-width: 600px; Limit the width for larger screens */
+  height: auto; /* Let the height adjust based on content */
+  background-color: #5a7694;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(125, 101, 101, 0.1); /* Add a shadow */
+}
+
+.teacher-form .form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.teacher-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.teacher-form input[type="text"],
+.teacher-form input[type="email"],
+.teacher-form select,
+.teacher-form textarea,
+.teacher-form button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.teacher-form button {
+  background-color: #4caf50; /* Green color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.teacher-form button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.container11 {
+  margin-top: 40px;
+  width: 100%;
+  border: 3px red solid;
+  background-color: rgb(79, 79, 143);
+}
+.students-list {
+  float: right;
+  width: 80%;
+  padding: 20px;
+  background-color: rgb(64, 64, 116);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: black;
+  font-weight: 700;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* h1 {
+  text-align: center;
+  color: rgb(54, 181, 28);
+  background-color: red;
+} */

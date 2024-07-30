@@ -1,0 +1,83 @@
+.main {
+  background-color: hsl(180, 4%, 19%);
+  width: 80%;
+}
+
+.class-edit-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: hsl(180, 7%, 9%);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.class-info {
+  background-color: rgb(125, 80, 80);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Subject select container */
+.subject-select-container {
+  background-color: #060606;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.teacher-subject {
+  width: 40%;
+  height: 15vh;
+}
+/* Label and select styling */
+.teacher-subject label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #0d5fe3;
+}
+
+.teacher-subject select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.teacher-subject select:focus {
+  outline: none;
+  border-color: #4caf50; /* Green border color on focus */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Green shadow on focus */
+}
+
+/* Heading and paragraph styles */
+
+p {
+  margin-bottom: 5px;
+  color: white;
+}
+
+/* Social course select styling */
+#socialCourse {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+#socialCourse option {
+  padding: 8px;
+}
+
+.teacher-subject .option {
+  color: black;
+  background-color: yellow;
+}

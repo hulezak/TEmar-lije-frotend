@@ -1,0 +1,36 @@
+.vertical-nav {
+  width: 20%;
+  background-color: rgb(24, 24, 24);
+  height: 100vh;
+  float: left;
+  position: sticky;
+  top: 0px;
+  overflow-y: auto;
+}
+.vertical-nav ul {
+  padding: 50px;
+  align-items: center;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(57, 57, 130);
+}
+
+.vertical-nav ul li {
+  margin-bottom: 10px;
+  font-size: 30px;
+  list-style: none;
+  width: 100%;
+}
+.vertical-nav ul li:hover {
+  font-size: 34px;
+  background-color: rgba(62, 61, 61, 0.1);
+}
+.vertical-nav a {
+  color: rgb(169, 163, 163);
+  text-decoration: none;
+}
+.vertical-nav a:hover {
+  color: white;
+}

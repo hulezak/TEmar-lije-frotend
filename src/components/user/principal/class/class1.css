@@ -1,0 +1,130 @@
+body {
+  color: white;
+}
+
+/* styles.css */
+.custom-select {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-select:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+}
+
+.custom-select:focus {
+  outline: none;
+  border-color: #007bff; /* Example of focus style */
+}
+
+.custom-select option {
+  background-color: #fff;
+  color: #333;
+}
+
+.custom-select-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.form {
+  padding: 25px;
+  width: 500px;
+  margin: 0 auto;
+  background-color: rgba(20, 20, 20);
+}
+
+#submit {
+  font-size: 15px;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #543232;
+  color: white;
+  align-items: center;
+  margin-left: 170px;
+  margin-top: 100px;
+}
+
+#submit:hover {
+  background-color: rgb(29, 6, 6);
+  color: blue;
+}
+
+option {
+  color: black;
+}
+
+/* vdvbhhb */
+
+.All-class {
+  color: black;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 4px green solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: rgb(133, 133, 94);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.class {
+  width: 30%;
+  height: 250px;
+  border: 2px solid #333;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(60, 121, 121);
+  transition: transform 0.2s ease-in-out;
+}
+
+.class:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.class p {
+  margin: 0;
+  padding: 5px 0;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* here is the teachers profile */
+
+.room-teacher-profile {
+  background-color: rgb(83, 92, 96);
+}
+link {
+  text-decoration: none;
+}
+
+/* here is css of class edit page */
+
+/* class.css */
+
+/* class.css */
+
+/* Main container */
+/* class.css */
+
+.class-h1 {
+  color: white;
+  background-color: green;
+}

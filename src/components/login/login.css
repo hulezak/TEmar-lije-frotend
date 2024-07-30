@@ -1,0 +1,28 @@
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: 100px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}

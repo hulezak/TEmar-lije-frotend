@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.class-teachers-list {
+  width: 80%;
+  background-color: rgb(76, 46, 46);
+  padding: 60px;
+  color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.teacher-card {
+  width: 48%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px #8b3d3d1a;
+  background-color: black;
+}
+
+.teacher-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.teacher-card p {
+  margin-bottom: 4px;
+}
+
+.teacher-card .subject {
+  color: #007bff; /* or any other color you prefer */
+}
+
+.teacher-card .phone {
+  font-weight: bold;
+}
+
+/* Optional: Hover effect */
+.teacher-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
